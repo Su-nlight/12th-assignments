@@ -8,8 +8,8 @@ S. NO.  | QUESTION <br/>
    02   | Write a program to input a number and display a table.<br/>
    03   | Write a program to enter names of employees with their respective salaries and store them in a dictionary.<br/>
    04   | Write a program to find occurence of given element in a list.<br/>
-   05   | Write a program to take in email ID(s) of a number of students and store them in a tuple, also make two.<br/>
-        | more tuples, one stores username other stores domain of those ID(s).
+   05   | Write a program to take in email ID(s) of a number of students and store them in a tuple, also make two
+        | more tuples, one stores username other stores domain of those ID(s).<br/>
    06   | Write a menu driven program to perform the following operations :-
         |  i)   Count the numbers of vowels from the given list.
         |  ii)  To display sum of all numeric values from the list
@@ -18,5 +18,5 @@ S. NO.  | QUESTION <br/>
    07   | Write a program to find sum of following series :- 
         |  i)   1 + 3 + 5 + ... till n
         |  ii)  (2/x) + (3/x^2) + (4/x^3) + ... till n
-        |  iii) 1 + (2/2!) + (3/3!) + ... till n
+        |  iii) 1 + (2/2!) + (3/3!) + ... till n<br/>
 <pre/>
