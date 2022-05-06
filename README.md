@@ -17,6 +17,6 @@ S. NO.  | QUESTION <br/>
         |  iv)  to get an element from the user and display it's number of occurence in the list.<br/>
    07   | Write a program to find sum of following series :- 
         |  i)   1 + 3 + 5 + ... till n
-        |  ii)  (2/x) + (3/x^2) + (4/x^3) + ... till n
+        |  ii)  (2/x) + (3/x²) + (4/x³) + ... till n
         |  iii) 1 + (2/2!) + (3/3!) + ... till n<br/>
 <pre/>
