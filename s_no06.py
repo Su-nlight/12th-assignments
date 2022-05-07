@@ -7,12 +7,28 @@ class stuff:
                 count+=1
         return count
 
+    def listinput(self):
+        print("Enter your list values separated by commas (,): ")
+        raw = input(": ")
+        raw = raw.split(",")
+        self.data = list(x.strip() for x in raw)
+
+    def total(self):
+        l = self.data
+        total = 0
+        for i in l:
+            try:
+                total += int(i)
+            except:
+                continue
+        return total
+
     def loca(self):
-        return self.l1.index(self.ele)
+        return self.data.index(self.ele)
 
     def occur(self):
         freq=0
-        for i in self.l1:
+        for i in self.data:
             if i==self.ele:
                 freq+=1
             else: continue
@@ -34,17 +50,17 @@ class stuff:
                 print("occurence of vowel is {}".format(self.vowels()))
 
             elif choice=='2':
-                l1=list(eval(input("Enter your numeric list elements separated by comma(,): ")))
-                print("Sum of all elements in provided list is ",sum(l1))
+                self.listinput()
+                print("Sum of all elements in provided list is ",self.total())
 
             elif choice=='3':
-                self.l1 = list(eval(input("Enter your numeric list elements separated by comma(,): ")))
-                self.ele=eval(input("enter the element: "))
+                self.listinput()
+                self.ele=input("enter the element: ").strip()
                 print("{} in list is found at index = {}".format(self.ele,self.loca()))
 
             elif choice=='4':
-                self.l1 = list(eval(input("Enter your numeric list elements separated by comma(,): ")))
-                self.ele=eval(input("enter the element: "))
+                self.listinput()
+                self.ele=input("enter the element: ")
                 print("{} occurs {} times in list provided".format(self.ele,self.occur()))
 
             elif choice.lower()=='exit':
