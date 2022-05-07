@@ -46,7 +46,7 @@ class stuff:
             choice=input("Enter the program index that you wan to run : ")
 
             if choice=='1':
-                self.string=input("Enter the String : ")
+                self.string=input("Enter the String : ").lower()
                 print("occurence of vowel is {}".format(self.vowels()))
 
             elif choice=='2':
