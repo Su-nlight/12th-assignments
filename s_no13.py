@@ -8,3 +8,5 @@ while flag==True:
         if i.strip()=='my':
             counting+=1
         else: continue
+
+print("number of occurrence is : ",counting)
