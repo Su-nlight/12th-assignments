@@ -19,4 +19,21 @@ S. NO.  | QUESTION <br/>
         |  i)   1 + 3 + 5 + ... till n
         |  ii)  (2/x) + (3/x²) + (4/x³) + ... till n
         |  iii) 1 + (2/2!) + (3/3!) + ... till n<br/>
+-------------------------------------------- FILE HANDLING -------------------------------------------------------------------------<br/>
+   08   | Write a program to read lines from a text file "diary.txt" and display those lines which start with
+        | alphabet 'p'.<br/>
+   09   | Write a program to define a function "write1( )" to write multiple lines of text content into a file
+        | named as "daynote.txt".<br/>
+   10   | Write a program to print only the last line of a text file name does "date.txt" along with total
+        | number of lines in the text file.<br/>
+   11   | Write a program to read lines from file "poem.txt" and display those words which are less than
+        | four characters.<br/>
+   12   | Write a program to copy contents of one file to another file.<br/>
+   13   | Write a program to count the number of  occurrence of word "my" in the text file.<br/> 
+   14   | Write a program that copies a text file "source.txt" into "target.txt" only the lines starting with
+        | '@' sign.<br/>
+   15   | Write a program to count the words "to" and "the" present in a text file "poem.txt".<br/>
+   16   | Write a function named as "remove_lowercase( )" that accepts to file name and copies all the line
+        | that do not start with the lowercase letter from the first file to the second file.<br/>
+   17   | Write a program that accepts file name and display file's longest line.<br/>
 <pre/>
