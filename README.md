@@ -36,4 +36,5 @@ S. NO.  | QUESTION <br/>
    16   | Write a function named as "remove_lowercase( )" that accepts to file name and copies all the line
         | that do not start with the lowercase letter from the first file to the second file.<br/>
    17   | Write a program that accepts file name and display file's longest line.<br/>
+   18   | Write a program to find number of vowels in the file.<br/>
 <pre/>
