@@ -1,6 +1,6 @@
 def remove_lowercase():
 	file_name=input("enter name of source file: ").strip()
-	file1=open(filename,'r')
+	file1=open(file_name,'r')
 	cnt=file1.readlines()
 	file_name=input("enter name of target file: ").strip()
 	file2=open(filename, 'w')
