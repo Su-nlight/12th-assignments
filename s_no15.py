@@ -1,4 +1,4 @@
-f=open("idksomething.txt",'r')
+f=open("poem.txt",'r')
 temp=f.readlines()
 counting= [0,0]
 
