@@ -38,5 +38,6 @@ S. NO.  | QUESTION <br/>
    17   | Write a program that accepts file name and display file's longest line.<br/>
    18   | Write a program to find number of vowels in the file.<br/>
    19   | Write a program to count number of lowercase words, uppercase words and digits.<br/>
-   20   | Write a program using functions to create a binary file of string datatype and also write the function to read the content from that file.<br/>
+   20   | Write a program using functions to create a binary file of string datatype and also write the function to read the content
+        | from that file.<br/>
 <pre/>
