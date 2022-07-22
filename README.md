@@ -40,4 +40,5 @@ S. NO.  | QUESTION <br/>
    19   | Write a program to count number of lowercase words, uppercase words and digits.<br/>
    20   | Write a program using functions to create a binary file of string datatype and also write the function to read the content
         | from that file.<br/>
+   21   | Write a program to write a binary file with only dictionaries and read it later as per menu. 
 <pre/>
