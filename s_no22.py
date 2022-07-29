@@ -8,7 +8,7 @@ class binary_handle:
 	def creating(self):
 		f=open(self.filename,'ab')
 		x=input("Enter number of records you want to enter: ")
-		for i in range(x):
+		for i in range(int(x)):
 			key=input("Enter key: ")
 			value=input("Enter value: ")
 			self.d[key]=value
