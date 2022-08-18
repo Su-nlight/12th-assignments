@@ -42,4 +42,7 @@ S. NO.  | QUESTION <br/>
         | from that file.<br/>
    21   | Write a program to write a binary file with only dictionaries and read it later as per menu.<br/>
    22   | Write a menu driven program that creates, reads a binary file and delete a particular element from file.<br/>
+   23   | Write a user defined function named as 'push3_5(N)' which accepts list of integer in a parameter 'N'and pushes all those
+        | integers which are divisible by 3 or 5 from the list 'N' intoa list named "only3_5". Write a further program to input 5
+        | integers into a list named as 'Num'. The program should use the function 'push3_5' to increment elements by 10.<br/>
 <pre/>
