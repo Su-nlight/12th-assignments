@@ -45,4 +45,7 @@ S. NO.  | QUESTION <br/>
    23   | Write a user defined function named as 'push3_5(N)' which accepts list of integer in a parameter 'N'and pushes all those
         | integers which are divisible by 3 or 5 from the list 'N' intoa list named "only3_5". Write a further program to input 5
         | integers into a list named as 'Num'. The program should use the function 'push3_5' to increment elements by 10.<br/>
+   24   | Write a function named as 'csvfile()' to create  'abc.csv' with specifications : "employee name", "employee number",
+        | "designation" and "basic salary". Also write a function named as 'readcsvfile()' to read all and display all records
+        | on the screen. (exam oriented)
 <pre/>
