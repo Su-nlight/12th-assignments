@@ -47,5 +47,6 @@ S. NO.  | QUESTION <br/>
         | integers into a list named as 'Num'. The program should use the function 'push3_5' to increment elements by 10.<br/>
    24   | Write a function named as 'csvfile()' to create  'abc.csv' with specifications : "employee name", "employee number",
         | "designation" and "basic salary". Also write a function named as 'readcsvfile()' to read all and display all records
-        | on the screen. (exam oriented)
+        | on the screen. (exam oriented)<br/>
+   25   | Write a program to perform selection sort on user accepted list of integers.<br/>
 <pre/>
