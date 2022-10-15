@@ -1,4 +1,3 @@
-#draft
 import sys
 
 def create():
@@ -8,8 +7,8 @@ def create():
 		lst.append(int(input("enter the element to be intered in stack: ")))
 	return lst
 
-def main():
-  	while True:
+if __name__=="__main__":
+	while True:
 		print("what do you want to do?\n	1--> create the stack\n	2--> pop from stack\n	3--> display the stack\n	4--> exit")
 		choice=int(input("	:: "))
 		if choice==1:
@@ -22,6 +21,3 @@ def main():
 		elif choice==4:
 			sys.exit(0)
 		else:print("wrong choice")
-
-if __name__=="__main__":
-  main()
