@@ -48,6 +48,6 @@ S. NO.  | QUESTION <br/>
    24   | Write a function named as 'csvfile()' to create  'abc.csv' with specifications : "employee name", "employee number",
         | "designation" and "basic salary". Also write a function named as 'readcsvfile()' to read all and display all records
         | on the screen. (exam oriented)<br/>
-   25   | Write a program to perform
+   25   | Write a program to perform basic stack application in menu driven format (push, pop, display and exit).<br/>
    26   | Write a program to perform selection sort on user accepted list of integers.<br/>
 <pre/>
