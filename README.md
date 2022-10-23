@@ -50,4 +50,5 @@ S. NO.  | QUESTION <br/>
         | on the screen. (exam oriented)<br/>
    25   | Write a program to perform basic stack application in menu driven format (push, pop, display and exit).<br/>
    26   | Write a program to perform selection sort on user accepted list of integers.<br/>
+   27   | wite a program with stack funtion (menu driven). ( ** add more to question)<br/>
 <pre/>
