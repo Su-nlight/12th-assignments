@@ -1,4 +1,4 @@
-# a list contains following records 
+
 stack=[]
 def push_ele(records):
 	global stack
