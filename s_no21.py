@@ -7,7 +7,7 @@ def create_f(filename:str,m_admno:list,m_values:list):
 		d={}
 		for i in m_admno:
 			d[i]=m_values[m_admno.index(i)]
-		pickle.dump(f1,d)
+		pickle.dump(d,f1)
 		return {"process":"completed"}
 	except:
 		return {"process":"error"}
@@ -32,7 +32,7 @@ def main():
 				x=int(input("enter number of records you want to enter:"))
 				for i in range(x):
 					value=[]
-					admno.append(input("Enter admno of record no.{}: ".format(i).strip()))
+					admno.append(input("Enter admno of record no.{}: ".format(i)))
 					value.append(input("Enter name of {}: ".format(admno[i])))
 					value.append(input("Enter class of {}: ".format(admno[i])))
 					value.append(input("Enter section of {}: ".format(admno[i])))
