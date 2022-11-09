@@ -12,7 +12,7 @@ def make_file():
     ch = input("would you like to continue? (y/n) : ")
     if ch == "n":
       flag = False
-  pickle.dump(f1, l)
+  pickle.dump(l,f1)
 
 
 def read_file():
