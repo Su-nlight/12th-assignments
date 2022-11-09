@@ -16,7 +16,7 @@ def make_file():
 
 
 def read_file():
-  x = input("Enter filename without extension").strip()
+  x = input("Enter filename without extension : ").strip()
   f1 = open(x + ".dat", 'rb')
   content = pickle.load(f1)
   print(content)
