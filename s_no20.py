@@ -27,15 +27,17 @@ def main():
     "1 --> Create a Binary file\n2 --> Read a Binary file\n3 --> Exit the program"
   )
   try:
-    ch = int(input("Enter Choice: "))
-    if ch == 1:
-      make_file()
-    elif ch == 2:
-      read_file()
-    elif ch == 3:
-      sys.exit(0)
-    else:
-      print("Invalid choice")
+    while True:
+      ch = int(input("Enter Choice: "))
+      if ch == 1:
+        make_file()
+      elif ch == 2:
+        read_file()
+      elif ch == 3:
+        sys.exit(0)
+      else:
+        print("Invalid choice")
+        
   except ValueError:
     print("Choice is not an integer")
   except:
