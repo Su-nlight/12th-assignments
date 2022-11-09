@@ -6,7 +6,7 @@ def create_f(filename:str,m_admno:list,m_values:list):
 		f1=open(filename, 'wb')
 		d={}
 		for i in m_admno:
-			d[i]=m_values[i.index()]
+			d[i]=m_values[m_admno.index(i)]
 		pickle.dump(f1,d)
 		return {"process":"completed"}
 	except:
@@ -24,8 +24,8 @@ def main():
 	while True:
 		print("1 --> Create a file of data\n2 --> Read a file of data\n3 --> Exit the program")
 		choice=int(input("Enter choice: "))
-		f_name=input("Enter Filename: ").strip()
 		if choice==1:
+			f_name=input("Enter Filename: ").strip()
 			admno=[]
 			values=[]
 			try:
@@ -59,5 +59,4 @@ def main():
 			
 		if choice==3:
 			sys.exit(0)
-if '__name__'=='__main__':
-	main()				
+main()				
