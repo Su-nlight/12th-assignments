@@ -51,4 +51,14 @@ S. NO.  | QUESTION <br/>
    25   | Write a program to perform basic stack application in menu driven format (push, pop, display and exit).<br/>
    26   | Write a program to perform selection sort on user accepted list of integers.<br/>
    27   | wite a program with stack funtion (menu driven). ( ** add more to question)<br/>
+   28   | Write menu driven program to find frequency of particular alphabet and frequency of all alphabets from a string provided
+        | by the user in the program shell.<br/>
+   29   | Write a program that accepts numerator and denominator of a fractional number and calls a user defined function
+        | mixedFraction() when the fraction formed is not a proper fraction. The default value ofdenominator is 1. The
+        | function displays a mixed fraction only if the fraction formed by the parameters does not evaluate to a
+        | whole number. <br/>
+   30   | Write a program and create a basic_maths module with 4 functions, i.e. multiplications, division, subtraction
+        | and addition. <br/>
+   31   | Write a program to input names of n students and store them in a tuple. Also, input a name from the user and
+        | find if this student is present in the tuple or not.<br/>
 <pre/>
