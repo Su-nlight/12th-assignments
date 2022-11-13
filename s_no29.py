@@ -24,6 +24,4 @@ def main():
     except ValueError:
         print("Numerator is invalid")
 
-
-if __name__=="__main__":
-    main()
+main()
