@@ -61,4 +61,9 @@ S. NO.  | QUESTION <br/>
         | and addition. <br/>
    31   | Write a program to input names of n students and store them in a tuple. Also, input a name from the user and
         | find if this student is present in the tuple or not.<br/>
+   32   | Vedika has created a dictionary containing names and marks as key- value pairs of 5 students. Write a program,
+        | with separate user-defined functions to perform the following operations:
+        | 1). Push the keys (name of the student) of the dictionary into a stack, where the corresponding value (marks)
+        |    | is greater than 70. 
+        | 2). Pop and display the content of the stack.<br/>
 <pre/>
