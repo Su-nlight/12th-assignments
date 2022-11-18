@@ -1,27 +1,25 @@
+import mysql.connector
+mydb = mysql.connector.connect(
+	host="localhost",
+	user="user",
+	password="userpass",
+	database="UserData")
+	
+cursor = mydb.cursor()
+#ordering records
 
-def mixedFraction(nume, deno):
-    remainder=nume%deno
-    quotient = int(nume / deno)
-    if remainder!=0:
-        res="{0}/{1} is equal to {2}({3}/{1})".format(nume, deno, quotient, remainder)
-    elif quotient<0:
-        res="Negative fractions not calculable"
-    elif remainder==0:
-        res="It is a proper fraction"
-    return res
+cursor.execute("SELECT * FROM Users ORDER BY userid ASC;")
 
-def main():
-    try:
-        nume=int(input("Enter the numerator: "))
-        deno=input("Enter the denominator: ")
-        if deno=="" or deno.isalpha() or deno.strip()=="0":
-            print("value of the denominator assigned is invalid so assuming it as 1")
-            deno=1
-            x=mixedFraction(nume,deno)
-        elif nume>int(deno) and int(deno)>0:
-            x=mixedFraction(nume,int(deno))
-        print(x)
-    except ValueError:
-        print("Numerator is invalid")
+records = cursor.fetchall()
 
-main()
+print(records)
+#deleting last record
+
+if(len(records)>0):
+	lastrec = records[len(records)-1]
+	last_userid = lastrec[0];
+	cursor.execute(f"DELETE FROM Users WHERE userid='{last_userid}';")
+	mydb.commit()
+	print("Record deleted")
+else:
+	print("No record")
