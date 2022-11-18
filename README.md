@@ -66,4 +66,16 @@ S. NO.  | QUESTION <br/>
         | 1). Push the keys (name of the student) of the dictionary into a stack, where the corresponding value (marks)
         |    | is greater than 70. 
         | 2). Pop and display the content of the stack.<br/>
+   33   | Write a program in python to establish a connection to the database and accepting a fresh record from the user as
+        | input and inserting it into the table. with fields -  Name, Email, Password, Phone & Location.<br/>
+   34   | Write a program in python to establish a connection to the following database and display all the records in the
+        | table sorted by userid. Then proceed to delete the last record in the table. With fields - Userid, Name, EmployeeId,
+        | Department. <br/>
+   35   | Write a program in python to establish a connection to the database . Then proceed to accept the username and password
+        | as an input from the user and check whether the username exists in the table. If it does, then proceed to check if the
+        | entered password matches the one in the table. With fields -Username, Password.<br/>
+   36   | Write a program in python to establish a connection to the following database and calculate the average marks and
+        | displaying all the records in ascending order sorted by the marks column. With fields - Student_Id, Marks.<br/>
+   37   | Write a program in python to establish a connection to the following database and replacing the ‘MiddleName’ column
+        | with a ‘LastName’ column. With fields - Userid FirstName MiddleName.<br/>
 <pre/>
