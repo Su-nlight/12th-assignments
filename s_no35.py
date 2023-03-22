@@ -5,14 +5,14 @@ mydb = mysql.connector.connect(
     password="userpass",
     database="UserData")
 
-cursor = mydb.cursor();
+cursor = mydb.cursor()
 
-username = input("enter username : ");
-password = input("enter password : ");
+username = input("enter username : ")
+password = input("enter password : ")
 
-cursor.execute(f"SELECT * FROM Users WHERE username='{username}'");
+cursor.execute(f"SELECT * FROM Users WHERE username='{username}'")
 
-records = cursor.fetchall();
+records = cursor.fetchall()
 
 if(len(records)==0):
     print("Username does not exist");
